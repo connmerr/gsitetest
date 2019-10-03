@@ -3,10 +3,16 @@
   <ModulePrefs title="Welcome 2" height="400"/>
    <Content type="html"> <![CDATA[ 
      <form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey"><br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse"><br><br>
+ <select name="searchField" display="Search"  value="Gene Name">
+  <option value="geneName">Gene Name</option>
+  <option value="uniprot">Uniprot</option>
+</select>
+ <select name="searchWith"  value="equals">
+  <option value="equals" >equals</option>
+  <option value="contains">contains</option>
+</select>
+ Value:<br>
+  <input type="text" name="searchValue" value="NT5E"><br>
   <input type="submit" value="Submit">
 </form>
     ]]>
