@@ -5,6 +5,8 @@
     <EnumValue value="Gene Name" />
     <EnumValue value="Uniprot" />
    </UserPref>
-   <Content type="html">Hello
+   <Content type="html"> <![CDATA[ 
+     Hello, world!
+    ]]>
   </Content>
 </Module>
