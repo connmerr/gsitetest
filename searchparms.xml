@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Welcome" height="400"/>
+  <ModulePrefs title="Welcome 2" height="400"/>
   <UserPref name="searchField" display_name="Search" default_value="Gene Name" datatype="enum" >
     <EnumValue value="Gene Name" />
     <EnumValue value="Uniprot" />
