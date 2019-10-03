@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="Welcome 2" height="400"/>
-  <UserPref name="searchField" display_name="Search" default_value="Gene Name" datatype="enum" >
-    <EnumValue value="Gene Name" />
-    <EnumValue value="Uniprot" />
-   </UserPref>
    <Content type="html"> <![CDATA[ 
      <form action="/action_page.php">
   First name:<br>
