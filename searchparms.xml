@@ -4,10 +4,6 @@
   <UserPref name="searchField" display_name="Search" default_value="Gene Name" datatype="enum" >
     <EnumValue value="Gene Name" />
     <EnumValue value="Uniprot" />
-  <UserPref name="searchWith" display_name="" default_value="equals" datatype="enum" >
-    <EnumValue value="equals" />
-    <EnumValue value="contains" />
-  <UserPref name="geneNameValue" display_name="" default_value="NT5E"/>
    </UserPref>
    <Content type="html"><![CDATA[
    <div id="content_div"></div>
